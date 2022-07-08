@@ -7,12 +7,13 @@
 \s      - Whitespace (space, tab, newline)
 \S      - Not Whitespace (space, tab, newline)
 
-\b      - Word Boundary
+#Anchor -> use in conjunction with other key
+\b      - Word Boundary -> indicated by white spaces and non-alphanumeric character
 \B      - Not a Word Boundary
-^       - Beginning of a String
+^       - Beginning of a String #caret -> match a position that is beginning of a string
 $       - End of a String
 
-[]      - Matches Characters in brackets
+[]      - Matches Characters in brackets -> dash [-] is a special character in brackets when written with alphabets
 [^ ]    - Matches Characters NOT in brackets
 |       - Either Or
 ( )     - Group
@@ -20,7 +21,7 @@ $       - End of a String
 Quantifiers:
 *       - 0 or More
 +       - 1 or More
-?       - 0 or One
+?       - 0 or One -> making the prior character optional
 {3}     - Exact Number
 {3,4}   - Range of Numbers (Minimum, Maximum)
 
