@@ -7,7 +7,7 @@
 \s      - Whitespace (space, tab, newline)
 \S      - Not Whitespace (space, tab, newline)
 
-\b      - Word Boundary
+\b      - Word Boundary [Boundary = spacebar or tab or Whitespace]
 \B      - Not a Word Boundary
 ^       - Beginning of a String
 $       - End of a String
@@ -28,3 +28,5 @@ Quantifiers:
 #### Sample Regexs ####
 
 [a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+
+
+
